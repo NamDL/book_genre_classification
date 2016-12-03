@@ -1,3 +1,5 @@
+__author__ = 'supriyaanand'
+
 import sys
 import string
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -18,8 +20,8 @@ class svm_classifier:
     def __init__(self, train_data_dir, test_data_dir):
         '''
         Sets up data vectors
-        :param train_data_dir: direcory holding the training data hosted in folders bearing class names
-        :param test_data_dir: direcory holding the test data hosted in folders bearing class names
+        :param train_data_dir: directory holding the training data hosted in folders bearing class names
+        :param test_data_dir: directory holding the test data hosted in folders bearing class names
         :return: self
         '''
         # setup pre-processors

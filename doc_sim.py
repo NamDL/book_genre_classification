@@ -53,7 +53,7 @@ class doc_sim_calc:
     def read_test_data(self, data_dir):
         '''
         Load test data
-        :param data_dir: direcory holding the test data hosted in folders bearing class names
+        :param data_dir: directory holding the test data hosted in folders bearing class names
         :return: self
         '''
         self.data = sklearn.datasets.load_files(data_dir, encoding='latin1')
