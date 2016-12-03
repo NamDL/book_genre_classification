@@ -11,7 +11,7 @@ We limited the scope of the project to classifying books into five pre-determine
    * Romance  
    * Science Fiction  
  
-The performance of three Machine Learning classifiers on a test data set of around 3000 books along with Naive Bayes as a baseline classifier is as follows:
+The performance of three Machine Learning classifiers evaluated in terms of F1 scores on a test data set of around 3000 books along with Naive Bayes as a baseline classifier is as follows:
 
 | Genre/Classifier|Naive Bayes| Maximum Entropy| Random Forests| Support Vector Machines
 |-----------------|-----------|----------------|---------------|------------------------|
